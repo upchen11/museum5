@@ -26,10 +26,20 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
-            padding: 10px 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
+        ::-webkit-scrollbar {
+              display: none;
+            }
+
+            html {
+              scrollbar-width: none;
+              -ms-overflow-style: none;
+            }
 
         .logo {
+            margin-left: 40px;
             width: 40px;
             height: 40px;
             background-color: #fff;
